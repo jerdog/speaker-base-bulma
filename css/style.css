@@ -1,0 +1,23 @@
+/* Place new CSS styles in this file.       */
+/* These will be included at page load.     */
+/* Place CSS styles to override base        */
+/*   Bulma in /assets/css/override.scss.    */
+/* ---------------------------------------- */
+
+:root {
+    --speaker-heading-weight: 700;
+    --speaker-cell-weight: 600;
+}
+
+.is-text-centered {
+    text-align: center;
+}
+
+.is-heading {
+    font-weight: var(--speaker-heading-weight);
+    text-transform: uppercase;
+}
+
+.is-talk-title {
+    font-weight: var(--speaker-cell-weight);
+}
